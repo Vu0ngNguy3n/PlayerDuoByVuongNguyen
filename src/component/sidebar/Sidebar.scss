@@ -1,0 +1,49 @@
+.sidebar{
+    position: fixed;
+    top: 65px;
+    width: 15%;
+    height: 100%;
+    background-color: rgba(204, 204, 204, 0.6);
+     -ms-overflow-style: none; /* cho Internet Explorer, Edge */
+  scrollbar-width: none; /* cho Firefox */
+  overflow-y: scroll; 
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    .sidebarTitle{
+        text-align: center;
+        opacity: 0.3;
+        text-transform: uppercase;
+    }
+
+    .listGame{
+        .game{
+            padding: 14px 10px;
+            display: flex;
+            align-items: center;
+            
+            label{
+                font-weight: 600;
+                font-size: 13px;
+                color: #6c6c6c;
+            }
+
+            img{
+                    width: 15%;
+                    border-radius: 4px;
+                    margin-right: 8px;
+            }
+
+            &:hover{
+                transition: .2s;
+                background-color: rgba(240, 86, 74,0.6);
+                cursor: pointer;
+            }
+
+           
+                
+        }
+    }
+}

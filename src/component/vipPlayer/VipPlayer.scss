@@ -1,0 +1,72 @@
+h2{
+    color: #f0564a;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.vipPlayer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .cardPlayer{
+        width: 18%;
+        margin: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        cursor: pointer;
+        transition: .4s;
+        padding-bottom: 10px;
+
+        &:hover{
+            transform: scale(1.05);
+        }
+
+
+        .playerImg{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height: 250px;
+        }
+
+        .playerName{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 10px;
+
+            h5{
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .onlinePlayer{
+                background-color: #27ae60;
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+            }
+        }
+
+        p{
+            padding: 0px 10px;
+            font-weight: 500;
+            opacity: 0.8;
+            color: #6c6c6c;
+        }
+        .donate{
+            padding: 0 10px;
+
+            img{
+                width: 15%;
+                border-radius: 100%;
+                margin-right: 4px;
+            }
+        }
+    }
+}

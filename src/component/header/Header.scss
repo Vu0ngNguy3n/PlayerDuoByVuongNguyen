@@ -1,0 +1,294 @@
+.header{
+    width: 100%;
+    padding: 10px 0;
+    height: 45px;
+    border-bottom: 0.8px solid #ccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+    top: 0;
+
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        position: relative;
+
+
+        .leftHeader{
+            display: flex;
+            margin-left: 20px;
+            align-items: center;
+            justify-content: space-around;
+            width: 20%;
+
+            img{
+                width: 40px;
+                height: 40px;
+            }
+
+            .search{
+                display: flex;
+                .searchInput{
+                    border-radius: 70px;
+                    outline: none;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    background-color: rgba(204, 204, 204, 0.15);
+                    position: relative;
+                    height: 30px;
+                    padding: 4px 14px;
+                }
+                .searchBtn{
+                    position: absolute;
+                }
+
+            }
+        }
+
+        .middle{
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            align-items: center;
+
+            .home{
+                color: #f0564a;
+            }
+
+            .home, .cinema, .board{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                margin: 10px;
+                background-color: rgba(204, 204, 204, 0.6);
+                padding: 8px;
+                border-radius: 50%;
+
+                &:hover{
+                    color: #f0564a;
+                    cursor: pointer;
+                    transition: .2s;
+                }
+            }
+
+        }
+
+        .rightHeader{
+            display: flex;
+            width: 25%;
+            margin-right: 10px;
+            justify-content: right;
+            align-items: center;
+            
+
+            .web, .facebook{
+                font-size: 20px;
+                margin: 4px;
+                padding: 8px;
+                background-color: rgba(204, 204, 204, 0.6);
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover{
+                    color: #f0564a;
+                    cursor: pointer;
+                    transition: .2s;
+                }
+            }
+
+            .loginBtn{
+                margin: 4px;
+                padding: 8px;
+                background-color: rgba(204, 204, 204, 0.6);
+                border-radius: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                font-weight: 500;
+                font-size: 18px;
+                
+
+                &:hover{
+                    color: #f0564a;
+                    cursor: pointer;
+                    transition: .2s;
+                }
+
+            }
+
+            .mode{
+                font-size: 20px;
+                margin: 4px;
+                padding: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                width: 30px;
+
+                &:hover{
+                    color: #f0564a;
+                    cursor: pointer;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}
+
+
+.login{
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(255, 255, 255,0.2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .loginForm{
+        background-color: white;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 10px;
+        width: 25%;
+
+        .backHome{
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: left;
+            font-size: 20px;
+            cursor: pointer;
+            transition: .4s;
+
+            &:hover{
+                color: #f0564a;
+            }
+        }
+
+        .logo{
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
+            align-items: center;
+
+            .titleLogin{
+                margin: 10px 0;
+                color: #f0564a;
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            img{
+                width: 55px;
+                background-color: #f0564a;
+                border-radius: 10px;
+            }
+        }
+        
+        .contentMain{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            align-items: center;
+            justify-content: center;
+            
+
+            .contentForm{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+
+                input{
+                    margin: 10px 0;
+                    padding: 12px 20px;
+                    text-align: center;
+                    border-radius: 10px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                }
+
+                .forgotPass{
+                    text-align: right;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                    transition: .4s;
+
+                    &:hover{
+                        color: #f0564a;
+                        cursor: pointer;
+                    }
+                }
+
+                .handleLogin{
+                    margin: 10px 0;
+                    padding: 12px 20px;
+                    border-radius: 10px;
+                    outline: none;
+                    border: 1px solid transparent;
+                    background-color: rgba(240, 86, 74,0.8);
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-family: "Poppins";
+                    cursor: pointer;
+                    transition: .4s;
+
+                    &:hover{
+                        background-color: #f0564a;
+                    }
+                }
+
+            }
+             .facebook{
+                margin: 10px 0;
+                width: 100%;
+                padding: 12px 20px;
+                border-radius: 10px;
+                outline: none;
+                border: 1px solid #ccc;
+                background-color: transparent;
+                color: rgba(0, 0, 0,0.6);
+                font-weight: 500;
+                font-size: 15px;
+                cursor: pointer;
+                transition: .4s;
+
+                &:hover{
+                    color: black;
+                }
+
+                i{
+                    margin-right: 10px;
+                }
+            }
+
+            .signUp{
+                margin-top: 40px;
+                text-decoration: underline;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+                text-align: center;
+                cursor: pointer;
+                transition: .4s;
+
+                &:hover{
+                    color: #f0564a;
+                }
+            }
+        }
+    }
+}
