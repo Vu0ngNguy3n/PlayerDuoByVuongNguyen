@@ -1,0 +1,140 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "img": "https://sport5.mediacdn.vn/thumb_w/700/158855217956261888/2021/6/22/mi2-16242868779601931276369-16243298350071394534012.jpg",
+            "name": "Mina Young",
+            "description": "Hát hay, vui vẻ",
+            "donater": [
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "img": "https://tik180.com/wp-content/uploads/2022/10/streamer-quynh-alee-sexy-8.jpg",
+            "name": "Quỳnh Alee",
+            "description": "Hát hay, vui vẻ",
+            "donater": [
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg"   
+            ]
+        },
+        {
+            "id": 3,
+            "img": "https://newsmd2fr.keeng.net/tiin/archive/images/20210217/132535_117968956_2610476975933826_2174203557571723543_o.jpg",
+            "name": "Linh Ngọc Đàm",
+            "description":"Hát hay, vui vẻ",
+            "donater":[
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg"   
+            ]
+        },
+        {
+            "id": 4,
+            "img": "https://static2.yan.vn/YanNews/2167221/202203/nhan-sac-that-gay-that-vong-cua-hot-tiktoker-vu-thi-khanh-huyen-48d64d4c.jpg",
+            "name": "Vũ Thị Khánh Huyền",
+            "description":"Hát hay, vui vẻ",
+            "donater":[
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" 
+            ]
+        },
+        {
+            "id": 5,
+            "img": "https://1.bp.blogspot.com/-c4aUzurejog/YQ5jTVOTcOI/AAAAAAAAAWY/_RB51OdZwlY76eDHhlzQXRTR-eFeXz_zQCLcBGAsYHQ/s671/cliplethikhanhhuyen1.png",
+            "name": "Lê Thị Khánh Huyền",
+            "description":"Hát hay, vui vẻ",
+            "donater": [
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg",
+                "https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg"
+            ]
+        }
+
+    ],
+    "games":[
+        {
+            "id": 1,
+            "name": "Liên Minh Huyền Thoại",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__f364f2e0-34ce-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Đấu Trường Chân Lý",
+            "img":"https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__a844a8e0-34cf-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 3,
+            "name": "PUBG Mobile",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__c5802ad0-33e2-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 4,
+            "name": "PUBG PC",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__53121480-33e3-11ed-838c-b120e70abb59__game_avatars.jpg"
+        }
+        ,{
+            "id": 5,
+            "name": "Liên Quân Mobile",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__3b5dac30-34d0-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },{
+            "id": 6,
+            "name": "Liên Minh Tốc Chiến",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__99a18050-34d5-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Free Fire",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__39932230-34cc-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Valorant",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__5dd9f670-34d4-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "img": 9,
+            "name": "Naraka Bladepoint",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__f79153d0-33e4-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 11,
+            "name": "CSGO",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__40daec90-33e5-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Dota 2",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__e671c440-34d4-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },{
+            "id": 13,
+            "name": "Call Of Duty",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__38084d60-34d5-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 14,
+            "name": "GTA V",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__62295df0-34d5-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Hát",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__4bb638e0-33f9-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Tâm sự",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__95575640-37c4-11ed-838c-b120e70abb59__game_avatars.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Khác",
+            "img": "https://files.playerduo.net/production/game_avatars/715867c6-698f-411a-b4f9-1e9093130b60__95575640-37c4-11ed-838c-b120e70abb59__game_avatars.jpg"
+        }
+    ]
+}

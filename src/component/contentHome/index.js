@@ -15,7 +15,7 @@ function ContentHome(){
                 <div className="card">
                     <img className="avatar" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
                      <div className="eye">
-                        <i class="fa-solid fa-eye"></i>30
+                        <i className="fa-solid fa-eye"></i>30
                     </div>
                     <div className="titleCard">
                         <img className="imgTitle" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
@@ -25,7 +25,7 @@ function ContentHome(){
                 <div className="card">
                     <img className="avatar" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
                      <div className="eye">
-                        <i class="fa-solid fa-eye"></i>30
+                        <i className="fa-solid fa-eye"></i>30
                     </div>
                     <div className="titleCard">
                         <img className="imgTitle" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
@@ -35,7 +35,7 @@ function ContentHome(){
                 <div className="card">
                     <img className="avatar" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
                     <div className="eye">
-                        <i class="fa-solid fa-eye"></i>30
+                        <i className="fa-solid fa-eye"></i>30
                     </div>
                     <div className="titleCard">
                         <img className="imgTitle" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
@@ -45,7 +45,7 @@ function ContentHome(){
                 <div className="card">
                     <img className="avatar" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
                      <div className="eye">
-                        <i class="fa-solid fa-eye"></i>30
+                        <i className="fa-solid fa-eye"></i>30
                     </div>
                     <div className="titleCard">
                         <img className="imgTitle" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
@@ -55,7 +55,7 @@ function ContentHome(){
                 <div className="card">
                     <img className="avatar" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
                      <div className="eye">
-                        <i class="fa-solid fa-eye"></i>30
+                        <i className="fa-solid fa-eye"></i>30
                     </div>
                     <div className="titleCard">
                         <img className="imgTitle" src="https://photo-zmp3.zmdcdn.me/avatars/1/4/8/d/148ddab9ed3756234771530579c73f5f.jpg" />
@@ -97,7 +97,7 @@ function ContentHome(){
                     <input placeholder="Tên game"/>
                 </div>
                <div>
-                 <button className="search"><i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm</button>
+                 <button className="search"><i className="fa-solid fa-magnifying-glass"></i>Tìm kiếm</button>
                </div>
 
             </div>

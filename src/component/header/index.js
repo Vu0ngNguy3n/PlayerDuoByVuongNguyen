@@ -16,32 +16,31 @@ function Header(){
                                 className="searchInput"
                                 placeholder="Nickname/Url..."
                             />
-                            {/* <div className="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></div> */}
                         </div>
                     </div>
                     <div className="middle">
                         <div className="home" alt="Trang chủ">
-                            <i class="fa-solid fa-house"></i>
+                            <i className="fa-solid fa-house"></i>
                         </div>
                         <div className="cinema">
-                            <i class="fa-solid fa-film"></i>
+                            <i className="fa-solid fa-film"></i>
                         </div>
                         <div className="board">
-                            <i class="fa-solid fa-trophy"></i>
+                            <i className="fa-solid fa-trophy"></i>
                         </div>
                     </div>
                     <div className="rightHeader">
                         <div className="web">
-                            <i class="fa-solid fa-globe"></i>
+                            <i className="fa-solid fa-globe"></i>
                         </div>
                         <div className="facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i className="fa-brands fa-facebook-f"></i>
                         </div>
                         <div className="loginBtn">
                             <span onClick={() => setShowModal(true)}>Đăng nhập</span>
                         </div>
                         <div className="mode">
-                            <i class="fa-solid fa-moon"></i>
+                            <i className="fa-solid fa-moon"></i>
                         </div>
                     </div>
                 </div>
@@ -49,7 +48,7 @@ function Header(){
             <div className="login" style={{display: showModal ===true?'flex':'none'}}>
                     <div className="loginForm">
                         <div className="backHome">
-                            <i class="fa-solid fa-arrow-left " onClick={() => setShowModal(false)}></i>
+                            <i className="fa-solid fa-arrow-left " onClick={() => setShowModal(false)}></i>
                         </div>
                         <div className="logo">
                             <img alt="logo playerduo" src="https://files.playerduo.net/production/static-files/logo.png"></img>
@@ -67,7 +66,7 @@ function Header(){
                                 <p className="forgotPass">Quên mật khẩu?</p>
                                 <button className="handleLogin"><span>Đăng nhập</span></button>
                             </div>
-                            <button className="facebook"><i class="fa-brands fa-facebook"></i>Đăng nhập bằng Facebook</button>
+                            <button className="facebook"><i className="fa-brands fa-facebook"></i>Đăng nhập bằng Facebook</button>
                             <a className="signUp">Đăng ký tài khoản</a>
                         </div>
                     </div>
