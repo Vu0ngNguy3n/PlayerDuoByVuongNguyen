@@ -1,16 +1,19 @@
 import React, { useState } from "react"
+import { useNavigate } from "react-router"
 import "./Header.scss"
 
 function Header(){
 
     const [showModal, setShowModal] = useState(false)
+    const [status, setStatus ] = useState(1)
+    const navigate = useNavigate()
 
     return (
            <React.Fragment>
             <div className="header">
                 <div className="inner">
                     <div className="leftHeader">
-                        <img alt="logo playerduo" src="https://files.playerduo.net/production/static-files/logo.png" className="logo"></img>
+                        <img alt="logo playerduo" src="https://files.playerduo.net/production/static-files/logo.png" className="logo" onClick={() => navigate('/')}></img>
                         <div className="search">    
                             <input 
                                 className="searchInput"
@@ -19,13 +22,31 @@ function Header(){
                         </div>
                     </div>
                     <div className="middle">
-                        <div className="home" alt="Trang chủ">
+                        <div className="home" alt="Trang chủ" 
+                            onClick={() => {
+                                navigate('/')
+                                setStatus(1)
+                            }}
+                            style={{color: status===1?"#f0564a":''}}
+                            >
+                        
                             <i className="fa-solid fa-house"></i>
                         </div>
-                        <div className="cinema">
+                        <div className="cinema" 
+                         onClick={() => {
+                            navigate("/stories")
+                            setStatus(2)
+                        }}
+                         style={{color: status===2?"#f0564a":''}}
+                         >
                             <i className="fa-solid fa-film"></i>
                         </div>
-                        <div className="board">
+                        <div className="board"
+                        onClick={() => {
+                            setStatus(3)
+                        }}
+                        style={{color: status===3?"#f0564a":''}}
+                        >
                             <i className="fa-solid fa-trophy"></i>
                         </div>
                     </div>

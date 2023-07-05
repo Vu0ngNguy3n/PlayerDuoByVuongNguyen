@@ -26,6 +26,7 @@
             img{
                 width: 40px;
                 height: 40px;
+                cursor: pointer;
             }
 
             .search{
@@ -52,9 +53,7 @@
             font-size: 20px;
             align-items: center;
 
-            .home{
-                color: #f0564a;
-            }
+          
 
             .home, .cinema, .board{
                 display: flex;
@@ -143,6 +142,14 @@
     }
 }
 
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
 .login{
     position: absolute;
@@ -154,6 +161,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    animation: fadeIn ease-in 0.2s;
     .loginForm{
         background-color: white;
         padding: 20px 40px;
@@ -266,14 +274,18 @@
                 font-size: 15px;
                 cursor: pointer;
                 transition: .4s;
-
-                &:hover{
-                    color: black;
-                }
-
+                opacity: 0.7;
                 i{
                     margin-right: 10px;
+                    color: rgba(63, 94, 173);
+                    font-size: 16px;
                 }
+                &:hover{
+                    color: black;
+                    opacity: 1;
+                }
+
+                
             }
 
             .signUp{
